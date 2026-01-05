@@ -12,6 +12,11 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .container-items{
+      display: flex;
+      flex-direction: column;
+
+    }
   </style>
 </head>
 <body>
@@ -23,27 +28,25 @@
       <h1>Your Journey to Coding Conf <br> 2025 Starts Here!</h1>
       <p>Secure your spot at next year's biggest coding conference.</p>
 
-      <div class="container-1">
+      
         <label for="photo">Upload Avatar</label>
         <input type="file" id="photo" name="photo" placeholder="Drag and drop or click to upload" />
         <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
-      </div>
+     
 
-      <div class="container-2">
+      
         <label for="photo">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" />
-      </div>
+      
 
-      <div class="container-3">
+      
         <label for="photo">Email Address</label>
         <input type="text" id="email" name="email" placeholder="example@email.com" />
-      </div>
-    </div>
-
-    <div class="container-4">
+     
+    
       <label for="photo">GitHub Username</label>
       <input type="text" id="email" name="email" placeholder="@yourusername" />
-    </div>
+   
     <button class="btn" id="btn">Generate My Ticket</button>
   </div>
   </form>
