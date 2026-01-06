@@ -16,6 +16,9 @@ input {
     opacity: 0.2;
     justify-content:flex-start
 }
+.upload{
+    height: 5rem;
+}
 .btn {
     width: 18rem;
     height: 2.2rem;
@@ -24,6 +27,8 @@ input {
     border: none;
     opacity: 0.8;
     cursor: pointer;
+    color: var(--Neutral-900);
+    font-weight: 800;
 }
 label {
     
