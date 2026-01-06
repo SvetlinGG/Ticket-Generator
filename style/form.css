@@ -32,6 +32,7 @@ input {
 }
 .btn:hover{
     border: 3px solid blue;
+    border-style: dashed;
     color: blue;
 }
 label {
