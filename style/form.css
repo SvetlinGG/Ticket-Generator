@@ -16,18 +16,25 @@ h1{
 }
 input {
     margin-bottom: 2rem;
+    color: white;
 }
 .name, .email, .username, .upload {
     width: 17rem;
     height: 2rem;
-    border-color: var(--Neutral-500);
     border-radius: 7px;
-    opacity: 0.2;
+    background: transparent;
+    opacity: 0.7;
     justify-content:flex-start;
     color: var(--Neutral-300);
+    border:1px solid  var(--Neutral-300);
 }
 .upload{
     height: 5rem;
+    border:1px solid  var(--Neutral-300);
+    border-style: dashed;
+}
+.upload-photo{
+    color: var(--Neutral-300);
 }
 .btn {
     width: 18rem;
@@ -41,7 +48,7 @@ input {
     font-weight: 800;
 }
 .btn:hover{
-    border: 3px solid blue;
+    border: 2px solid blue;
     border-style: dashed;
     color: blue;
 }
