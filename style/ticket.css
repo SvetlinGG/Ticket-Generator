@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+    font-family: 'Inconsolata';
+    background-image: url('../assets/images/background-desktop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailed {
+    color: var(--Neutral-300);
+    margin-bottom: 30px;
+    
+    width: 20%;
+}
