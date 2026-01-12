@@ -16,8 +16,11 @@ body{
 }
 
 .emailed {
-    color: var(--Neutral-300);
+    color: var(--Neutral-500);
     margin-bottom: 30px;
     
     width: 20%;
+}
+span {
+    color: var(--Orange-500);
 }
